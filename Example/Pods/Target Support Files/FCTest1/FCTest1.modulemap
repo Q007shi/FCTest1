@@ -1,0 +1,6 @@
+framework module FCTest1 {
+  umbrella header "FCTest1-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FCTest1 (0.1.0)
+
+DEPENDENCIES:
+  - FCTest1 (from `../`)
+
+EXTERNAL SOURCES:
+  FCTest1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCTest1: 00d7626fae8469c8fd29a7fc3f64f78b915226f8
+
+PODFILE CHECKSUM: 02aceaa0432ae7a8bf9764e5f004287e6d27a722
+
+COCOAPODS: 1.8.4

@@ -3,9 +3,4 @@ use_frameworks!
 target 'FCTest1_Example' do
   pod 'FCTest1', :path => '../'
 
-  target 'FCTest1_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
 end
