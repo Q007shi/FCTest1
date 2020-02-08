@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		11EAF39E708934D61A10DB525605906F /* Pods-FCTest1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B770A19609B0A4E91DB6A273E305F /* Pods-FCTest1_Example-dummy.m */; };
-		1ECB1DDB2334B3480C6BD30151E3E46E /* FCTest1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361B19918ECFBC447501C83857DBCE0 /* FCTest1-dummy.m */; };
-		38BC51937D91A0033BDD048D65088D98 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F59D81BB206D3D7B99AD956D7775C9 /* ReplaceMe.swift */; };
+		1E4E4F4D67048914095110963D5466AA /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1F72C23AF500CD23C7AF1DE30DFCF /* Test2.swift */; };
 		3E64F877E20768D92A8CF26925394142 /* Pods-FCTest1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 395677C16AA71BB18699EA3B21B33028 /* Pods-FCTest1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45921A22B4299B2516E8041F50175B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		567B02E933DF1C82188B0C8384FF53AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7C15AFC3D0595E6D2941A9B867B463DF /* FCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D76C1E7F03908809D3F3E3E2F4F5CA /* FCTest.swift */; };
-		D16F584B8FE8020FE41C8CC11A1F22B8 /* FCTest1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 495CA8AEFF1028C7534A160DF7AAB095 /* FCTest1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8101F7CC1EEA8BE89CAED6431F79DCF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		994BAE513DD33C56CD50E3A673B03F6E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16916B900A6BD5E80CD602EC32160 /* ReplaceMe.swift */; };
+		BE3160A3A3EC59357A8D6FE0C512EB4F /* FCTest1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A37957100A88208D3451DF71CFBC70 /* FCTest1-dummy.m */; };
+		BF452AA8C116B581C21535783C682725 /* FCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63D9959917FA03CD189D78DD0B3BC9 /* FCTest.swift */; };
+		C94247555F4676271B94FAF7310A13E4 /* FCTest1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC72F96308E1843D293E5366D2CD0FD /* FCTest1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,26 +31,27 @@
 /* Begin PBXFileReference section */
 		011DD5A301F40A61CD15E40A9938F0C3 /* Pods-FCTest1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCTest1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		069B770A19609B0A4E91DB6A273E305F /* Pods-FCTest1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCTest1_Example-dummy.m"; sourceTree = "<group>"; };
-		1B8058C25209BBF8B99343EC35E97580 /* FCTest1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCTest1-Info.plist"; sourceTree = "<group>"; };
+		0DE59E9086FAFDA30EDAAFD8B0D53841 /* FCTest1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCTest1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1FEA7C6E15E12ACA3E18007562C3467D /* Pods-FCTest1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCTest1_Example.modulemap"; sourceTree = "<group>"; };
-		2361B19918ECFBC447501C83857DBCE0 /* FCTest1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCTest1-dummy.m"; sourceTree = "<group>"; };
+		2B25347FBF0AA0EA5E86C05029B0B39F /* FCTest1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCTest1-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		381FEA4AFD84ACB734B098BB2FF34C87 /* Pods-FCTest1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCTest1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		395677C16AA71BB18699EA3B21B33028 /* Pods-FCTest1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCTest1_Example-umbrella.h"; sourceTree = "<group>"; };
+		3CB6F9A42BBA80ADF5C459BBB1BB2254 /* FCTest1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCTest1.modulemap; sourceTree = "<group>"; };
 		41FF095C9EBC8352490973838D288B46 /* Pods-FCTest1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCTest1_Example-frameworks.sh"; sourceTree = "<group>"; };
-		46F59D81BB206D3D7B99AD956D7775C9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FCTest1/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		495CA8AEFF1028C7534A160DF7AAB095 /* FCTest1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCTest1-umbrella.h"; sourceTree = "<group>"; };
-		515CFD356A294010070FDC4282559E48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		62C7956377CA3E4F741AA41D9D80F9E8 /* FCTest1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCTest1.xcconfig; sourceTree = "<group>"; };
-		6E80FE5B33579EDE659D1BBE97C30844 /* FCTest1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCTest1.modulemap; sourceTree = "<group>"; };
+		44A37957100A88208D3451DF71CFBC70 /* FCTest1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCTest1-dummy.m"; sourceTree = "<group>"; };
+		51C16916B900A6BD5E80CD602EC32160 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FCTest1/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7FA4EADF4B2C4DE5346D8730919199C8 /* Pods-FCTest1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCTest1_Example.release.xcconfig"; sourceTree = "<group>"; };
 		87FA76826D04C5374747A2817D6B31F6 /* Pods-FCTest1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCTest1_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89F1F72C23AF500CD23C7AF1DE30DFCF /* Test2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test2.swift; path = FCTest1/Classes/Test2.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A81963E47D1FFBE54BD6E3F9C519247E /* FCTest1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCTest1.xcconfig; sourceTree = "<group>"; };
+		AE63D9959917FA03CD189D78DD0B3BC9 /* FCTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCTest.swift; path = FCTest1/Classes/FCTest.swift; sourceTree = "<group>"; };
 		B8EA8D4AC753840389EB1B3A5CA47903 /* Pods-FCTest1_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCTest1_Example-Info.plist"; sourceTree = "<group>"; };
-		D8D76C1E7F03908809D3F3E3E2F4F5CA /* FCTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCTest.swift; path = FCTest1/Classes/FCTest.swift; sourceTree = "<group>"; };
-		ECB6B5BDBD8FA6AC5FA53E16EE253089 /* FCTest1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCTest1-prefix.pch"; sourceTree = "<group>"; };
-		F47A7C9B82F58A0A5161589187E9DD37 /* FCTest1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCTest1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F6A64D6F3709BAA46D6BD8438953D0BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C8E6277F19CCF21AD3B5033ED30BEE10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D373C34CD0419A6BD4FF67F3078F6E30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EAC72F96308E1843D293E5366D2CD0FD /* FCTest1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCTest1-umbrella.h"; sourceTree = "<group>"; };
+		F3F49B68A453655A1250DAF865054413 /* FCTest1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCTest1-Info.plist"; sourceTree = "<group>"; };
 		F8A03886C3E2A65D084631A8BA458C2D /* Pods_FCTest1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCTest1_Example.framework; path = "Pods-FCTest1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC65B47A293BCE7284FEBAAF3B01E00 /* FCTest1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCTest1.framework; path = FCTest1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,33 +65,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAED43E57A21483FEFA5B8B1E25DE0AD /* Frameworks */ = {
+		C0F4093B3BD8C1C223C34C07A29FE1FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45921A22B4299B2516E8041F50175B69 /* Foundation.framework in Frameworks */,
+				8101F7CC1EEA8BE89CAED6431F79DCF1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		013AD5D60F23D172D61BA7C4C4885B51 /* Pod */ = {
+		0F9E00E49C839C8EC0634BB7C6F8C38E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F47A7C9B82F58A0A5161589187E9DD37 /* FCTest1.podspec */,
-				F6A64D6F3709BAA46D6BD8438953D0BA /* LICENSE */,
-				515CFD356A294010070FDC4282559E48 /* README.md */,
+				0DE59E9086FAFDA30EDAAFD8B0D53841 /* FCTest1.podspec */,
+				C8E6277F19CCF21AD3B5033ED30BEE10 /* LICENSE */,
+				D373C34CD0419A6BD4FF67F3078F6E30 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		51269E80DC3CC0FD87832D28A62127BC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				97E7AD2FCF89C5A906EB08DBA57558F3 /* FCTest1 */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		642C918B78A08F3D05DD99ED06AE33E5 /* Pods-FCTest1_Example */ = {
@@ -118,16 +112,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97E7AD2FCF89C5A906EB08DBA57558F3 /* FCTest1 */ = {
+		7E94D68E883878FD0BE7A8F2439CE028 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8D76C1E7F03908809D3F3E3E2F4F5CA /* FCTest.swift */,
-				46F59D81BB206D3D7B99AD956D7775C9 /* ReplaceMe.swift */,
-				013AD5D60F23D172D61BA7C4C4885B51 /* Pod */,
-				DBF661503E5569CE9A59406707E4FE4B /* Support Files */,
+				3CB6F9A42BBA80ADF5C459BBB1BB2254 /* FCTest1.modulemap */,
+				A81963E47D1FFBE54BD6E3F9C519247E /* FCTest1.xcconfig */,
+				44A37957100A88208D3451DF71CFBC70 /* FCTest1-dummy.m */,
+				F3F49B68A453655A1250DAF865054413 /* FCTest1-Info.plist */,
+				2B25347FBF0AA0EA5E86C05029B0B39F /* FCTest1-prefix.pch */,
+				EAC72F96308E1843D293E5366D2CD0FD /* FCTest1-umbrella.h */,
 			);
-			name = FCTest1;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FCTest1";
+			sourceTree = "<group>";
+		};
+		888D4BC872A4DAE183A58993419470FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0EED3E7077B62FC2852E35ABBF50BEE /* FCTest1 */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9C5072C3CFC6CF060CB0692661A7EBB1 /* Targets Support Files */ = {
@@ -136,6 +140,19 @@
 				642C918B78A08F3D05DD99ED06AE33E5 /* Pods-FCTest1_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0EED3E7077B62FC2852E35ABBF50BEE /* FCTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				AE63D9959917FA03CD189D78DD0B3BC9 /* FCTest.swift */,
+				51C16916B900A6BD5E80CD602EC32160 /* ReplaceMe.swift */,
+				89F1F72C23AF500CD23C7AF1DE30DFCF /* Test2.swift */,
+				0F9E00E49C839C8EC0634BB7C6F8C38E /* Pod */,
+				7E94D68E883878FD0BE7A8F2439CE028 /* Support Files */,
+			);
+			name = FCTest1;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -150,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				51269E80DC3CC0FD87832D28A62127BC /* Development Pods */,
+				888D4BC872A4DAE183A58993419470FD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				70A01406FCDAE1B3983C140D93AF7BE5 /* Products */,
 				9C5072C3CFC6CF060CB0692661A7EBB1 /* Targets Support Files */,
@@ -165,20 +182,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBF661503E5569CE9A59406707E4FE4B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6E80FE5B33579EDE659D1BBE97C30844 /* FCTest1.modulemap */,
-				62C7956377CA3E4F741AA41D9D80F9E8 /* FCTest1.xcconfig */,
-				2361B19918ECFBC447501C83857DBCE0 /* FCTest1-dummy.m */,
-				1B8058C25209BBF8B99343EC35E97580 /* FCTest1-Info.plist */,
-				ECB6B5BDBD8FA6AC5FA53E16EE253089 /* FCTest1-prefix.pch */,
-				495CA8AEFF1028C7534A160DF7AAB095 /* FCTest1-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FCTest1";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -190,11 +193,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62F8CBBB989D1FFFC208824874609DCD /* Headers */ = {
+		C5DA73B7372431BFCF155619C5569D53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16F584B8FE8020FE41C8CC11A1F22B8 /* FCTest1-umbrella.h in Headers */,
+				C94247555F4676271B94FAF7310A13E4 /* FCTest1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,12 +206,12 @@
 /* Begin PBXNativeTarget section */
 		885399CC985F9DD624F370E4EDAFCEA9 /* FCTest1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E1F88DBD97B153184AB999FF8F3EB82 /* Build configuration list for PBXNativeTarget "FCTest1" */;
+			buildConfigurationList = 67505DD754A7D976A2EB724CCE039ED6 /* Build configuration list for PBXNativeTarget "FCTest1" */;
 			buildPhases = (
-				62F8CBBB989D1FFFC208824874609DCD /* Headers */,
-				58691F75FAA17EB07399FC0672E21F24 /* Sources */,
-				FAED43E57A21483FEFA5B8B1E25DE0AD /* Frameworks */,
-				75C3044059F84ADC31EED6C667312BED /* Resources */,
+				C5DA73B7372431BFCF155619C5569D53 /* Headers */,
+				CDB49B63268B8342E3655978F3906A35 /* Sources */,
+				C0F4093B3BD8C1C223C34C07A29FE1FE /* Frameworks */,
+				1F8311B6C83261F06428333808FCD677 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -267,7 +270,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		75C3044059F84ADC31EED6C667312BED /* Resources */ = {
+		1F8311B6C83261F06428333808FCD677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,13 +295,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58691F75FAA17EB07399FC0672E21F24 /* Sources */ = {
+		CDB49B63268B8342E3655978F3906A35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C15AFC3D0595E6D2941A9B867B463DF /* FCTest.swift in Sources */,
-				1ECB1DDB2334B3480C6BD30151E3E46E /* FCTest1-dummy.m in Sources */,
-				38BC51937D91A0033BDD048D65088D98 /* ReplaceMe.swift in Sources */,
+				BF452AA8C116B581C21535783C682725 /* FCTest.swift in Sources */,
+				BE3160A3A3EC59357A8D6FE0C512EB4F /* FCTest1-dummy.m in Sources */,
+				994BAE513DD33C56CD50E3A673B03F6E /* ReplaceMe.swift in Sources */,
+				1E4E4F4D67048914095110963D5466AA /* Test2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +475,9 @@
 			};
 			name = Debug;
 		};
-		A333EC8C6EE3C044F04DF5CB5D54467A /* Release */ = {
+		839129F9974C408A5587FFB1377C36AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62C7956377CA3E4F741AA41D9D80F9E8 /* FCTest1.xcconfig */;
+			baseConfigurationReference = A81963E47D1FFBE54BD6E3F9C519247E /* FCTest1.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -502,6 +506,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		97DA89C534D84FCABE39010AEC7E8EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81963E47D1FFBE54BD6E3F9C519247E /* FCTest1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCTest1/FCTest1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCTest1/FCTest1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCTest1/FCTest1.modulemap";
+				PRODUCT_MODULE_NAME = FCTest1;
+				PRODUCT_NAME = FCTest1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F16665E76EA95840A2B226D24CA94E43 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -537,37 +572,6 @@
 			};
 			name = Release;
 		};
-		F7250CC145F924C3703318FCFF61A39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62C7956377CA3E4F741AA41D9D80F9E8 /* FCTest1.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FCTest1/FCTest1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FCTest1/FCTest1-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FCTest1/FCTest1.modulemap";
-				PRODUCT_MODULE_NAME = FCTest1;
-				PRODUCT_NAME = FCTest1;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,11 +584,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E1F88DBD97B153184AB999FF8F3EB82 /* Build configuration list for PBXNativeTarget "FCTest1" */ = {
+		67505DD754A7D976A2EB724CCE039ED6 /* Build configuration list for PBXNativeTarget "FCTest1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7250CC145F924C3703318FCFF61A39A /* Debug */,
-				A333EC8C6EE3C044F04DF5CB5D54467A /* Release */,
+				97DA89C534D84FCABE39010AEC7E8EEA /* Debug */,
+				839129F9974C408A5587FFB1377C36AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

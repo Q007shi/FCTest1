@@ -1,5 +1,5 @@
 //
-//  FCTest.swift
+//  Test2.swift
 //  FCTest1
 //
 //  Created by 石富才 on 2020/2/8.
@@ -7,8 +7,10 @@
 
 import UIKit
 
-class FCTest: NSObject {
+class Test2: NSObject {
     
-    public var name: String?
+    var test1 = FCTest()
+    
+    
 
 }
